@@ -1,10 +1,5 @@
-import axios from "axios";
 import { Leap } from "@leap-ai/sdk";
-
 const leap = new Leap(import.meta.env.VITE_LEAP_API_KEY);
-
-// Prompt Example
-//
 
 export default class leapAPI {
   constructor() {
